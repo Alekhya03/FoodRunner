@@ -1,5 +1,5 @@
-FoodRunner
-ood ordering application with the following functionalities:
+FoodRunner 
+Food ordering application with the following functionalities:
 1. A ‘Welcome page’ which displays the logo and/or name of the app.
 2. A ‘Login Page’ which asks for users’ mobile number and password.
 3. A ‘Registration Page’ which enables users to sign up for the app.

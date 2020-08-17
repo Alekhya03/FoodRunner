@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="100dp"
+        android:paddingTop="35dp"
+        android:text="Food Runner"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:paddingTop="35dp"
+        android:text="@string/foodrunner_is_the_only_food_delivery_app_that_you_need_with_a_wide_variety_of_restaurants_speedy_delivery_excellent_customer_service_and_a_can_do_attitude_foodrunner_is_here_to_ensure_you_never_run_pun_intended_into_any_problems_when_you_order_food_pick_your_favourite_restaurant_to_order_from_finalise_your_order_and_track_your_delivery_in_real_time_from_the_restaurant_all_the_way_to_your_doorstep"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black" />
+
+
+</LinearLayout>

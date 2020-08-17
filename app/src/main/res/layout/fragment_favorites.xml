@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FavoritesFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:visibility="invisible"
+        android:id="@+id/no_favourites">
+
+        <ImageView
+            android:id="@+id/no_favourites_image"
+            android:layout_width="256dp"
+            android:layout_height="228dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_action_favourites" />
+        <TextView
+            android:layout_below="@id/no_favourites_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Favourites Added yet"
+            android:textColor="@color/colorPrimary"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerViewFavouriteRestaurant" />
+
+</RelativeLayout>

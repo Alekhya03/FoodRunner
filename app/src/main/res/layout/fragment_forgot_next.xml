@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".fragment.ForgotNextFragment">
+
+
+    <TextView
+        android:id="@+id/enterotp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the OTP recieved below "
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/otp"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/enterotp"
+        android:background="#ffffff"
+        android:hint="@string/otp"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/passwordForgot"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/otp"
+        android:background="#ffffff"
+        android:hint="@string/password"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/confirmForgotPassword"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:background="#ffffff"
+        android:layout_below="@id/passwordForgot"
+        android:hint="@string/confirmPassword"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/confirmForgotPassword"
+        android:text="Submit"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBarForgoNext"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/confirmForgotPassword"/>
+
+
+</RelativeLayout>

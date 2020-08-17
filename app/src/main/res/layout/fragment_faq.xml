@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FaqFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:text="@string/q1_how_does_this_work"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:text="@string/a1_we_deliver_for_our_customers_from_anywhere_our_customers_would_like_we_take_your_order_by_internet_and_place_it_with_the_restaurant_we_dispatch_a_meal_courier_to_pick_up_the_food_pack_it_in_an_insulated_carrier_and_deliver_it_directly_to_you_usually_your_meal_courier_will_be_waiting_at_the_restaurant_when_the_food_comes_out_of_the_kitchen_we_are_not_affiliated_with_some_of_the_restaurants_and_in_no_way_are_we_claiming_to_be_in_business_with_some_of_the_businesses_listed_unless_otherwise_stated_we_also_offer_grocery_delivery_services_for_those_who_are_interested"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:text="@string/q2_are_the_prices_different_than_at_the_restaurant"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:text="@string/a2_we_do_have_a_service_fee_of_10_for_our_non_partnered_restaurants"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:text="@string/q3_how_long_does_it_take_for_a_delivery"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:text="@string/a3_our_normal_delivery_time_is_between_45_minutes_and_1_hour_however_certain_situations_such_as_traffic_weather_and_restaurant_preparation_time_require_extra_time_please_know_that_we_are_always_working_hard_to_get_your_food_delivered_as_quickly_as_possible_we_appreciate_your_patience_placing_orders_in_advance_is_appreciated"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:text="@string/q4_what_happens_if_i_am_missing_items_from_my_order_when_it_is_delivered"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:text="@string/a4_call_us_within_one_hour_of_delivery_so_we_may_contact_the_restaurant_about_the_shortage_any_credits_will_be_based_upon_the_restaurant_s_decision_our_drivers_do_not_open_up_containers_to_verify_your_food_we_rely_on_the_restaurant_who_is_packaging_your_order_to_pack_it_correctly_if_the_restaurant_decides_to_offer_a_credit_then_we_apply_a_credit_to_your_account_to_be_used_on_your_next_order_from_any_restaurant"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:text="@string/q5_what_is_your_refund_policy"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorPrimaryDark" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:text="@string/a5_the_customer_is_financially_responsible_for_payment_once_an_order_is_submitted_if_you_want_to_change_your_order_we_will_attempt_to_accommodate_such_wishes_within_the_time_constraints_and_the_good_will_of_the_participating_restaurants_however_if_a_change_is_too_late_to_process_you_are_responsible_for_payment_of_the_original_order_changes_to_orders_must_be_phoned_to_the_staff_our_e_mail_is_not_checked_often_enough_to_ensure_that_we_get_your_changes"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".fragment.ForgotFragment">
+
+    <ImageView
+        android:id="@+id/appLogoForgot"
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        android:layout_marginTop="50dp"
+        android:src="@mipmap/app_logo" />
+
+    <TextView
+        android:id="@+id/enterDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appLogoForgot"
+        android:layout_marginTop="20dp"
+        android:text="Enter your registered mobile number and email below: "
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/mobileNumberForgot"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/enterDetails"
+        android:background="#ffffff"
+        android:inputType="phone"
+        android:hint="@string/mobilenumber"
+        android:maxLength="10"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/emailForgot"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/mobileNumberForgot"
+        android:background="#ffffff"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/emailForgot"
+        android:text="Next"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBarForgot"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailForgot"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

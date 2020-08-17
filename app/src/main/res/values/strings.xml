@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Food Runner</string>
+    <string name="app_home">Home</string>
+    <string name="app_profile">My Profile</string>
+    <string name="app_orders"> Order History</string>
+    <string name="app_favorites">Favorite Restaurent</string>
+    <string name="app_faq">FAQs</string>
+    <string name="app_restaurants">Restaurents</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="app_logout">Logout</string>
+    <string name="cart_proceed">PROCEED TO CART</string>
+    <string name="choose_from_menu">Choose from the Menu Listed Below</string>
+    <string name="cart_add">Add</string>
+    <string name="ordering_from">Ordering From: </string>
+    <string name="q1">Question 1. Why is Food Runner doing this?</string>
+    <string name="a1">            At Food Runner we strive to add value to your business. We understand the challenges you face on a daily basis in sourcing the best quality packaging material. Food Runner Packaging Assist is to take care of all your packaging needs.</string>
+    <string name="q2">Question 2. How are you guys different ?</string>
+    <string name="a2">            We only list the products which have passed our tests and are the best suitable for delivery. They will help in giving a better consumer experience, so you can get get repeated orders. Best prices - We have negotiated rates with our distributors exclusive for Food Runner Restaurant. Convenience - No need to haggle for prices. No need to follow-up on delivery. We track all orders to ensure you have a hassle free experience.</string>
+    <string name="q3">Question 3. Why is Food Runner doing this?</string>
+    <string name="a3">            At Food Runner we strive to add value to your business. We understand the challenges you face on a daily basis in sourcing the best quality packaging material. Food Runner Packaging Assist is to take care of all your packaging needs.</string>
+    <string name="shared_preferences">RestaurantPreference</string>
+    <string name="mobilenumber">Mobile Number (10 digits)</string>
+    <string name="password">Password (Min. 4 Characters)</string>
+    <string name="forgot_password">"Forgot Password ? "</string>
+    <string name="name">Name (Min. 3 Characters)</string>
+    <string name="email">E-mail Address</string>
+    <string name="DelieveryAddress">Delievery Address</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="otp">OTP (4 characters)</string>
+    <string name="place_order">Place Order</string>
+    <string name="order_placed">Order Successfully Placed !</string>
+    <string name="no_orders_placed">Oops! No Orders Placed yet</string>
+    <string name="your_previous_orders">Your previuos Orders are listed below</string>
+    <string name="answer_1">A.1 You will be taught using pre-recorded videos and text tutorials. The training has quizzes, assignments, and tests to help you learn better. At the end of the training, you will attempt a project to get hands-on practice of what you learn during your training.</string>
+    <string name="answer_2">A.2 As this is a purely online training program, you can choose to learn at any time of the day. We will recommend a pace to be followed throughout the program, but the actual timings and learning hours can be decided by students according to their convenience.</string>
+    <string name="answer_3">A.3 The training duration is of 6 weeks.</string>
+    <string name="answer_4">A.4 We recommend spending 10-12 hours per week. However, the actual learning hours can be decided by you as per your convenience.</string>
+    <string name="answer_5">A.5 You can choose your preferred batch date while signing up for the training program.</string>
+    <string name="answer_6">A.6 You will be able to download the certificate once you complete your training and take the final test.</string>
+    <string name="a4_call_us_within_one_hour_of_delivery_so_we_may_contact_the_restaurant_about_the_shortage_any_credits_will_be_based_upon_the_restaurant_s_decision_our_drivers_do_not_open_up_containers_to_verify_your_food_we_rely_on_the_restaurant_who_is_packaging_your_order_to_pack_it_correctly_if_the_restaurant_decides_to_offer_a_credit_then_we_apply_a_credit_to_your_account_to_be_used_on_your_next_order_from_any_restaurant">A4: Call us within one hour of delivery, so we may contact the restaurant about the shortage. Any credits will be based upon the restaurant\'s decision. Our drivers do not open up containers to verify your food. We rely on the restaurant who is packaging your order to pack it correctly. If the restaurant decides to offer a credit, then we apply a credit to your account to be used on your next order, from any restaurant.</string>
+    <string name="q4_what_happens_if_i_am_missing_items_from_my_order_when_it_is_delivered">Q4: What happens if I am missing items from my order when it is delivered?</string>
+    <string name="a3_our_normal_delivery_time_is_between_45_minutes_and_1_hour_however_certain_situations_such_as_traffic_weather_and_restaurant_preparation_time_require_extra_time_please_know_that_we_are_always_working_hard_to_get_your_food_delivered_as_quickly_as_possible_we_appreciate_your_patience_placing_orders_in_advance_is_appreciated">A3: Our normal delivery time is between 45 minutes and 1 hour, however certain situations such as traffic, weather, and restaurant preparation time require extra time. Please know that we are always working hard to get your food delivered as quickly as possible. We appreciate your patience. Placing orders in advance is appreciated.</string>
+    <string name="q3_how_long_does_it_take_for_a_delivery">Q3: How long does it take for a delivery?:</string>
+    <string name="a2_we_do_have_a_service_fee_of_10_for_our_non_partnered_restaurants">A2: We do have a service fee of 10% for our non-partnered restaurants.</string>
+    <string name="q2_are_the_prices_different_than_at_the_restaurant">Q2: Are the prices different than at the restaurant?</string>
+    <string name="a1_we_deliver_for_our_customers_from_anywhere_our_customers_would_like_we_take_your_order_by_internet_and_place_it_with_the_restaurant_we_dispatch_a_meal_courier_to_pick_up_the_food_pack_it_in_an_insulated_carrier_and_deliver_it_directly_to_you_usually_your_meal_courier_will_be_waiting_at_the_restaurant_when_the_food_comes_out_of_the_kitchen_we_are_not_affiliated_with_some_of_the_restaurants_and_in_no_way_are_we_claiming_to_be_in_business_with_some_of_the_businesses_listed_unless_otherwise_stated_we_also_offer_grocery_delivery_services_for_those_who_are_interested">A1: We deliver for our customers from anywhere our customers would like. We take your order by internet and place it with the restaurant. We dispatch a meal courier to pick up the food, pack it in an insulated carrier and deliver it directly to you. Usually, your meal courier will be waiting at the restaurant when the food comes out of the kitchen. We are not affiliated with some of the restaurants and in no way are we claiming to be in business with some of the businesses listed, unless otherwise stated. We also offer grocery delivery services for those who are interested.</string>
+    <string name="q1_how_does_this_work">Q1: How does this work?</string>
+    <string name="q5_what_is_your_refund_policy">Q5: What is your Refund Policy?</string>
+    <string name="a5_the_customer_is_financially_responsible_for_payment_once_an_order_is_submitted_if_you_want_to_change_your_order_we_will_attempt_to_accommodate_such_wishes_within_the_time_constraints_and_the_good_will_of_the_participating_restaurants_however_if_a_change_is_too_late_to_process_you_are_responsible_for_payment_of_the_original_order_changes_to_orders_must_be_phoned_to_the_staff_our_e_mail_is_not_checked_often_enough_to_ensure_that_we_get_your_changes">A5: The customer is financially responsible for payment once an order is submitted. If you want to change your order, we will attempt to accommodate such wishes within the time constraints and the good will of the participating restaurants. However, if a change is too late to process, you are responsible for payment of the original order. Changes to orders must be phoned to the staff. Our e-mail is not checked often enough to ensure that we get your changes.</string>
+    <string name="about_app">About App</string>
+    <string name="food_runner_is_an_online_application_where_you_can_order_you_food_from_different_restaurants">Food Runner is an online application where you can order you food from different restaurants</string>
+    <string name="foodrunner_is_the_only_food_delivery_app_that_you_need_with_a_wide_variety_of_restaurants_speedy_delivery_excellent_customer_service_and_a_can_do_attitude_foodrunner_is_here_to_ensure_you_never_run_pun_intended_into_any_problems_when_you_order_food_pick_your_favourite_restaurant_to_order_from_finalise_your_order_and_track_your_delivery_in_real_time_from_the_restaurant_all_the_way_to_your_doorstep">FoodRunner is the only food delivery app that you need. With a wide variety of restaurants, speedy delivery, excellent customer service, and a can-do attitude, FoodRunner is here to ensure you never run (pun intended) into any problems when you order food. Pick your favourite restaurant to order from, finalise your order, and track your delivery in real time from the restaurant all the way to your doorstep!</string>
+
+
+</resources>
+

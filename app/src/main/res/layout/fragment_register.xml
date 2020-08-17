@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".fragment.LoginFragment">
+    
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarRegister"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:titleTextColor="#ffffff" />
+
+
+    <EditText
+        android:id="@+id/confirmpasswordRegsiter"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/passwordRegsiter"
+        android:layout_marginTop="14dp"
+        android:background="#ffffff"
+        android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:drawablePadding="10dp"
+        android:hint="@string/confirmPassword"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/passwordRegsiter"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/addressRegister"
+        android:layout_marginTop="14dp"
+        android:background="#ffffff"
+        android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:drawablePadding="10dp"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/addressRegister"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/mobileNumberRegister"
+        android:layout_marginTop="14dp"
+        android:background="#ffffff"
+        android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/ic_action_delieveryaddress"
+        android:drawablePadding="10dp"
+        android:hint="@string/DelieveryAddress"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/mobileNumberRegister"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/emailRegister"
+        android:layout_marginTop="14dp"
+        android:background="#ffffff"
+        android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/ic_action_mobile"
+        android:drawablePadding="10dp"
+        android:hint="@string/mobilenumber"
+        android:inputType="phone"
+        android:maxLength="10"/>
+
+    <EditText
+        android:id="@+id/emailRegister"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/nameRegister"
+        android:layout_marginTop="14dp"
+        android:background="#ffffff"
+        android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/ic_action_email"
+        android:drawablePadding="10dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:id="@+id/nameRegister"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/toolbarRegister"
+        android:layout_marginTop="35dp"
+        android:background="#ffffff"
+        android:layout_centerInParent="true"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:drawableLeft="@drawable/ic_action_profile"
+        android:drawablePadding="10dp"/>
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/confirmpasswordRegsiter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Register"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+        android:textSize="20sp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBarRegister"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirmpasswordRegsiter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:visibility="invisible"/>
+
+</RelativeLayout>
